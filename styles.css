@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    to bottom right,
+    rgb(240, 227, 227),
+    rgb(87, 79, 79)
+  );
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.new-cases,
+.new-recovered,
+.new-deaths {
+  border: 1px solid black;
+  height: 400px;
+  width: 250px;
+  margin: 20px;
+  margin-top: 120px;
+  background: rgb(236, 234, 234);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 16px 16px 16px 0px;
+}
+
+header {
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.case-box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 144px;
+  width: 144px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
